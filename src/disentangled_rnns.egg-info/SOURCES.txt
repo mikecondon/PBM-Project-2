@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/disrnn.py
+src/gru.py
+src/rnn_utils.py
+src/switch_utils.py
+src/train.py
+src/disentangled_rnns.egg-info/PKG-INFO
+src/disentangled_rnns.egg-info/SOURCES.txt
+src/disentangled_rnns.egg-info/dependency_links.txt
+src/disentangled_rnns.egg-info/requires.txt
+src/disentangled_rnns.egg-info/top_level.txt
