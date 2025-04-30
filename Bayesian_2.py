@@ -13,7 +13,7 @@ class BanditEnvironment:
     def __init__(self, reward_probs=[[0.8, 0.2], [0.2, 0.8]], switch_prob=0.05):
         self.reward_probs = np.array(reward_probs)
         self.switch_prob = switch_prob
-        self.state = 0  # 0: left is better, 1: right is better
+        self.state = 0  
 
     def step(self, action):
         # Randomly switch the hidden state
